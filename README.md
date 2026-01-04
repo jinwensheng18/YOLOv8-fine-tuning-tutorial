@@ -40,7 +40,7 @@ pip install ultralytics
 > **注意：**`wallet` 的图片和标签是直接放在 `coco` 对应的文件夹里的 。
 
 ```text
-ultralytics/
+YOLOv8-fine-tuning-tutorial/
     ├──datasets/
           ├──coco/
               ├──annotations/
@@ -80,7 +80,7 @@ ultralytics/
 在`datasets`文件夹下新建一个配置文件 `data.yaml`。
 
 **注意修改点：**
-* **nc**: 修改为 81（COCO 80类 + 新增 1类）[cite: 22]。
+* **nc**: 修改为 81（COCO 80类 + 新增 1类）。
 * **names**: 在列表最后添加新的类别 ID 和名称。本例中 `wallet` 的 ID 为 `80` 。
 
 ```yaml
@@ -109,7 +109,7 @@ names:
 
 文件位置示例：
 ```text
-ultralytics/
+YOLOv8-fine-tuning-tutorial/
   ├── weights/
   │   ├── yolov8n.pt
   │   └── yolo11n.pt

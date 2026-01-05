@@ -1,4 +1,4 @@
-path: /home/at/jws/ultralytics/datasets/coco
+path: ./datasets/coco
 train: images/train2017
 val: images/val2017
 # test: ../test/images

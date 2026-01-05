@@ -5,7 +5,7 @@ from ultralytics.utils import ASSETS_URL
 from ultralytics.utils.downloads import download
 
 # -------------------------- 关键配置（根据你的需求修改）--------------------------
-YAML_PATH = "/home/at/jws/ultralytics/ultralytics/cfg/datasets/coco.yaml"  # 你的 yaml 配置文件路径（相对/绝对路径均可）
+YAML_PATH = "./ultralytics/cfg/datasets/coco.yaml"  # 你的 yaml 配置文件路径（相对/绝对路径均可）
 segments = False  # True=下载分割标注，False=下载边界框标注
 DOWNLOAD_TEST = False  # 是否下载测试集（True=下载，False=不下载，节省空间）
 # --------------------------------------------------------------------------------
